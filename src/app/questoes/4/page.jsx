@@ -1,4 +1,4 @@
-import ListaDeProdutos from "@/app/components/ListaDeProdutos/ListaProdutos";
+import ListaDeProdutos from "@/app/components/ProductList/ProductList";
 import { productionBrowserSourceMaps } from "../../../../next.config";
 
 export const produtos = [

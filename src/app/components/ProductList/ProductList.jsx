@@ -1,4 +1,4 @@
-import './listaProdutos.css'
+import './productList.css'
 
 export default function ListaDeProdutos({produtos}){
     return (
