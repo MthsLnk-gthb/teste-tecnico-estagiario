@@ -1,4 +1,7 @@
-const produtos = [
+import ListaDeProdutos from "@/app/components/ListaDeProdutos/ListaProdutos";
+import { productionBrowserSourceMaps } from "../../../../next.config";
+
+export const produtos = [
   {
     id: 1,
     nome: "Camiseta",
@@ -25,6 +28,7 @@ export default function Questao4() {
         objetos de produto e renderiza uma lista de produtos. Cada produto deve
         exibir seu nome e preço.
       </p>
+      <ListaDeProdutos produtos={produtos} />
     </>
   );
 }
