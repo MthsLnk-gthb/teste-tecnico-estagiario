@@ -1,0 +1,56 @@
+article {
+  display: grid;
+  place-content: center;
+  text-align: justify;
+  margin: 7vh auto;
+}
+
+button {
+  width: 80px;
+  height: 7vh;
+  border: none;
+  border-radius: 20px;
+  transition: .3s;
+
+  &:hover {
+    cursor: pointer;
+    border-radius: 0;
+  }
+}
+
+.div-input {
+  display: flex;
+}
+
+input {
+  width: 200px;
+  height: 7vh;
+  padding: 5px;
+}
+
+.send-btn {
+  background-color: #0075a0;
+  margin-left: 5px;
+}
+
+.task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh auto;
+  border-bottom: 1px solid rgb(75, 74, 74);
+  text-transform: capitalize;
+}
+
+.remove-task {
+  height: 5vh;
+  margin-left: 20px;
+  background-color: #f32323;
+}
+
+.clear-btn {
+  background-color: #008812;
+  margin: 3vh auto;
+}
+
+
